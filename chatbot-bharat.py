@@ -4,7 +4,7 @@ from langchain_core.output_parsers import StrOutputParser
 from langchain_google_genai import ChatGoogleGenerativeAI
 
 
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA2Mi4IjnQf4TJ5FQyO3p21njnN7PRmDyg"
+os.environ["GOOGLE_API_KEY"] = "xxxxx"
 
 
 eco_prompt = ChatPromptTemplate.from_messages([
@@ -15,7 +15,7 @@ eco_prompt = ChatPromptTemplate.from_messages([
 
 llm = ChatGoogleGenerativeAI(
     model="models/gemini-1.5-flash",
-    google_api_key="AIzaSyA2Mi4IjnQf4TJ5FQyO3p21njnN7PRmDyg"
+    google_api_key="xxxxx"
 )
 
 
